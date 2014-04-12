@@ -18,7 +18,11 @@ git fetch https://github.com/daeiron/android_system_vold.git cm-11.0 && git cher
 cd $DIR/hardware/qcom/display-caf/
 git fetch https://github.com/daeiron/android_hardware_qcom_display-caf.git cm-11.0 && git cherry-pick e257b9ffd6ab56dc8ed27a1574c58e98358c3a9b
 
-cd $DIR/hardware/qcom/display-caf/
+cd $DIR/vendor/pac/
 git fetch https://github.com/MrGezz/android_vendor_pac.git pac-4.4 && git cherry-pick 3d32164b443694ae9282115a9b3ea676661765e5
+
+cd $DIR/system/vold/
+git fetch https://github.com/MrGezz/android_system_vold.git cm-11.0 && git cherry-pick 33fcbe2f1fc9aa0892b9cb4d2b9e5c48df322a5e
+
 
 
