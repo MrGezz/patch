@@ -1,0 +1,131 @@
+<span style="font-size:18px;">1. 设置默认时区
+PRODUCT_PROPERTY_OVERRIDES += \
+        persist.sys.timezone=Asia/Shanghai\
+注：搜索“persist.sys.timezone”，并更改其值
+persist.sys.timezone值域
+•Marshall Islands              马绍尔群岛                    Pacific/Majuro                  
+•Midway Island                 中途岛                        Pacific/Midway                  
+•Hawaii                        夏威夷                        Pacific/Honolulu                
+•Alaska                        阿拉斯加州                    America/Anchorage               
+•Pacific Time                  太平洋时间                    America/Los_Angeles             
+•Tijuana                       蒂华纳                        America/Tijuana                 
+•Arizona                       亚利桑那                      America/Phoenix                 
+•Chihuahua                     吉娃娃                        America/Chihuahua               
+•Mountain Time                 山地时间                      America/Denver                  
+•Central America               中美洲                        America/Costa_Rica              
+•Central Time                  美国中部时间                  America/Chicago                 
+•Mexico City                   墨西哥城                      America/Mexico_City             
+•Saskatchewan                  萨斯喀彻温省                  America/Regina                  
+•Bogota                        波哥大                        America/Bogota                  
+•Eastern Time                  东部时间                      America/New_York       
+•Atlantic Time (Barbados)      大西洋时间（巴巴多斯）        America/Barbados                
+•Atlantic Time (Canada)        大西洋时间（加拿大）          America/Halifax                 
+•Manaus                        马瑙斯                        America/Manaus                  
+•Santiago                      圣地亚哥                      America/Santiago                
+•Newfoundland                  纽芬兰                        America/St_Johns                
+•Brasilia                      巴西利亚                      America/Sao_Paulo               
+•Buenos Aires                  布宜诺斯艾利斯                America/Argentina/Buenos_Aires  
+•Greenland                     格陵兰                        America/Godthab                 
+•Montevideo                    蒙得维的亚                    America/Montevideo              
+•Mid-Atlantic                  中大西洋                      Atlantic/South_Georgia          
+•Azores                        亚速尔群岛                    Atlantic/Azores                 
+•Cape Verde Islands            佛得角群岛                    Atlantic/Cape_Verde             
+•Casablanca                    卡萨布兰卡                    Africa/Casablanca               
+•London, Dublin                伦敦，都柏林                  Europe/London                   
+•Amsterdam, Berlin             阿姆斯特丹，柏林              Europe/Amsterdam                
+•
+Belgrade                      贝尔格莱德                    Europe/Belgrade          
+•Venezuela                     委内瑞拉                      America/Caracas                 
+Brussels                      布鲁塞尔                      Europe/Brussels                 
+•Sarajevo                      萨拉热窝                      Europe/Sarajevo                 
+•Windhoek                      温得和克                      Africa/Windhoek                 
+•W. Africa Time                W.非洲时间                    Africa/Brazzaville              
+•Amman, Jordan                 约旦安曼，                    Asia/Amman                      
+•Athens, Istanbul              雅典，伊斯坦布尔              Europe/Athens                   
+•Beirut, Lebanon               贝鲁特，黎巴嫩                Asia/Beirut                     
+•Cairo                         开罗                          Africa/Cairo                    
+•Helsinki                      赫尔辛基                      Europe/Helsinki                 
+•Jerusalem                     耶路撒冷                      Asia/Jerusalem                  
+•Minsk                         明斯克                        Europe/Minsk                    
+•Harare                        哈拉雷                        Africa/Harare                   
+•Baghdad                       巴格达                        Asia/Baghdad                    
+•Moscow                        莫斯科                        Europe/Moscow                   
+•Kuwait                        科威特                        Asia/Kuwait                     
+•Nairobi                       内罗毕                        Africa/Nairobi                  
+•
+Tehran                        德黑兰                        Asia/Tehran                     
+•Baku                          巴库                          Asia/Baku                       
+•Tbilisi                       第比利斯                      Asia/Tbilisi                    
+•Yerevan                       埃里温                        Asia/Yerevan                    
+•Dubai                         迪拜                          Asia/Dubai                      
+•Kabul                         喀布尔                        Asia/Kabul                      
+•Islamabad, Karachi            伊斯兰堡，卡拉奇              Asia/Karachi                    
+•Ural'sk                       Ural'sk                       Asia/Oral                       
+•Yekaterinburg                 叶卡捷琳堡                    Asia/Yekaterinburg              
+•Kolkata                       加尔各答                      Asia/Calcutta                   
+•Sri Lanka                     斯里兰卡                      Asia/Colombo                    
+•Kathmandu                     加德满都                      Asia/Katmandu                   
+•Astana                        阿斯塔纳                      Asia/Almaty                     
+•Yangon                        仰光                          Asia/Rangoon                    
+•Krasnoyarsk                   克拉斯诺亚尔斯克              Asia/Krasnoyarsk                
+•Bangkok                       曼谷                          Asia/Bangkok                    
+•
+Beijing                       北京                          Asia/Shanghai                   
+•Hong Kong                香港                          Asia/Hong_Kong                  
+•Irkutsk                       伊尔库次克                    Asia/Irkutsk                    
+•Kuala Lumpur            吉隆坡                        Asia/Kuala_Lumpur               
+•Perth                         珀斯                          Australia/Perth                 
+•Taipei                        台北                          Asia/Taipei                     
+•Seoul                         汉城                          Asia/Seoul                      
+•Tokyo, Osaka            东京，大阪                    Asia/Tokyo                      
+•Yakutsk                       雅库茨克                      Asia/Yakutsk                    
+•Adelaide                      阿德莱德                      Australia/Adelaide              
+•Darwin                        达尔文                        Australia/Darwin                
+•Brisbane                      布里斯班                      Australia/Brisbane              
+•Hobart                        霍巴特                        Australia/Hobart                
+•Sydney, Canberra        悉尼，堪培拉                  Australia/Sydney                
+•Vladivostok                   符拉迪沃斯托克                Asia/Vladivostok                
+•Guam                          关岛                          Pacific/Guam                    
+•Magadan                      马加丹                        Asia/Magadan                    
+•Auckland                      奥克兰                        Pacific/Auckland                
+•Fiji                              斐济                            Pacific/Fiji                    
+•Tonga                         汤加                          Pacific/Tongatapu
+               
+2. 设置默认语言
+PRODUCT_PROPERTY_OVERRIDES += \
+        ro.product.locale.language=EN\
+        persist.sys.language=EN\
+        persist.sys.country=US\
+        ro.product.region=US
+LANGUAGE-COUNTRY（在设置时，注意用大写）
+•简体中文(中国) zh-cn 繁体中文(台湾地区) zh-tw
+•繁体中文(香港) zh-hk 英语(香港) en-hk
+•英语(美国) en-us 英语(英国) en-gb
+•英语(全球) en-ww 英语(加拿大) en-ca
+•英语(澳大利亚) en-au 英语(爱尔兰) en-ie
+•英语(芬兰) en-fi 芬兰语(芬兰) fi-fi
+•英语(丹麦) en-dk 丹麦语(丹麦) da-dk
+•英语(以色列) en-il 希伯来语(以色列) he-il
+•英语(南非) en-za 英语(印度) en-in
+•英语(挪威) en-no 英语(新加坡) en-sg
+•英语(新西兰) en-nz 英语(印度尼西亚) en-id
+•英语(菲律宾) en-ph 英语(泰国) en-th
+•英语(马来西亚) en-my 英语(阿拉伯) en-xa
+•韩文(韩国) ko-kr 日语(日本) ja-jp
+•
+荷兰语(荷兰) nl-nl 荷兰语(比利时) nl-be
+•葡萄牙语(葡萄牙) pt-pt 葡萄牙语(巴西) pt-br
+•法语(法国) fr-fr 法语(卢森堡) fr-lu
+•法语(瑞士) fr-ch 法语(比利时) fr-be
+•法语(加拿大) fr-ca 西班牙语(拉丁美洲) es-la
+•西班牙语(西班牙) es-es 西班牙语(阿根廷) es-ar
+•西班牙语(美国) es-us 西班牙语(墨西哥) es-mx
+•西班牙语(哥伦比亚) es-co 西班牙语(波多黎各) es-pr
+•德语(德国) de-de 德语(奥地利) de-at
+•德语(瑞士) de-ch 俄语(俄罗斯) ru-ru
+•意大利语(意大利) it-it 希腊语(希腊) el-gr
+•挪威语(挪威) no-no 匈牙利语(匈牙利) hu-hu
+•土耳其语(土耳其) tr-tr 捷克语(捷克共和国) cs-cz
+•斯洛文尼亚语 sl-sl 波兰语(波兰) pl-pl
+•瑞典语(瑞典) sv-se 西班牙语 (智利) es-cl
+</span>
